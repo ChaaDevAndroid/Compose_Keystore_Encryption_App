@@ -5,7 +5,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.chaaba.composeencryptionapp.ui.theme.ComposeEncryptionAppTheme
-import com.chaaba.composeencryptionapp.ui.CryptoScreen
+import com.chaaba.composeencryptionapp.ui.PrefDataStoreCryptoScreen
+import com.chaaba.composeencryptionapp.ui.ProtoDataStoreCryptoScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +14,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ComposeEncryptionAppTheme {
-                CryptoScreen()
+                ProtoDataStoreCryptoScreen()
             }
         }
     }

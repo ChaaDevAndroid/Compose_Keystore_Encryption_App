@@ -66,4 +66,12 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    //preference datastore
+    implementation("androidx.datastore:datastore-preferences:1.1.1")
+    //proto datastore
+    implementation("androidx.datastore:datastore:1.1.1")
+    //Gson
+    implementation("com.google.code.gson:gson:2.11.0")
+    //jetpack security
 }
